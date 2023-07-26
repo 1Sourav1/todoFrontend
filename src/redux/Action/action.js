@@ -1,7 +1,7 @@
 import axios from "axios";
 import { ADDNEW_TODO, GETALL_TODO, TOGGLE_TODO, UPDATE_TODO, DELETE_TODO } from "./type";
 
-const BASE_URL = "http://localhost:4001/todo";
+const BASE_URL = "https://poised-apron-dove.cyclic.app/todo";
 
 export const addNewTodo = (data) => async (dispatch) => {
     try {
